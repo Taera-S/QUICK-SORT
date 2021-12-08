@@ -65,7 +65,7 @@ Sorting the elements on the right of pivot using recursion.
 
 #### Implementation of QuickSort using C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
