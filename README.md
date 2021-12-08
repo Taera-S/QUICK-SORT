@@ -1,4 +1,5 @@
 # Quicksort
+
 QuickSort is based on the Divide and Conquer strategy. It selects a pivot element and partitions the specified array around that pivot. QuickSort comes in a variety of flavors, each of which selects pivot in a unique way.
 
 * Always choose the first element as the pivot.
@@ -49,21 +50,29 @@ The procedure is repeated until the second-to-last element is reached.<br />
 <img width="510" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145233078-fe1236b0-bb6b-454a-83cc-f1bf941d7d0b.png">
 <br />
 Then, the pivot element is switched with the second pointer.<br />
-
-Again, pivot components are picked individually for the left and right sub-parts. Then step 2 is repeated.
+<br />
+<br />
+Again, pivot components are picked individually for the left and right sub-parts. Then step 2 is repeated.<br />
 Using recursion, choose the pivot element in each half and set it in the proper location.
 
+<img width="530" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145273820-b82caa55-a16a-4345-afc8-c22034cba548.png">
+<img width="530" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145243171-71043ea1-5c47-4ed9-aafa-0e02d82d6745.png">
 
-<div class="begin-examples"></div>
-Sorting the elements on the left of pivot using recursion.<br />
-Sorting the elements on the right of pivot using recursion.
-<div class="end-examples"></div>
+<div style="text-align: left"> Sorting the elements on the left of pivot using recursion. </div>
+<div style="text-align: right"> Sorting the elements on the right of pivot using recursion. </div>
 
-|<img width=200/>|<img width=500/>|
+<p align="center">
+<img width="530" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145286706-b66d3ee4-0bd4-410f-8c6d-f12ca0622828.png">
+</p>
 
-## Implementation Of Quicksort
 
-#### Implementation of QuickSort using C++
+<br />
+
+<br />
+
+# Implementation Of Quicksort
+
+### Implementation of QuickSort using C++
 
 ```cpp
 #include<iostream>
@@ -136,6 +145,7 @@ int main()
     display(arr, size);
     return 0;
 }
+
 /*
 OutPut
 Enter the size of elements : 7
@@ -144,3 +154,30 @@ Sorted elements are : 0, 1, 2, 6, 7, 8, 9
 */
 ```
 
+# Analysis of quick sort
+
+### **1. Time Complexities**
+
+
+* **Worst-Case Complexity [Big-O] : O (n2)**
+
+It happens when the pivot element chosen is either the greatest or the smallest element.
+
+This condition results in the pivot element being at the far end of the sorted array. 
+One sub-array is always empty, while another sub-array contains n - 1 elements. 
+As a result, quicksort is only called on this subarray.
+
+The quicksort algorithm, on the other hand, performs better with scattered pivots.
+
+* **Best-case Complexity [Big-omega]: O(n*log n)**
+
+It occurs when the pivot element is always in the middle or close to the middle.
+
+* **Average Case Complexity [Big-theta]: O(n*log n)**
+
+It happens when none of the preceding conditions are met.
+
+### **2. Space Complexity**
+
+Quicksort has a space complexity of O. (log n).
+ 
