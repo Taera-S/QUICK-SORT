@@ -136,10 +136,11 @@ int main()
     display(arr, size);
     return 0;
 }
+/*
+OutPut
+Enter the size of elements : 7
+By using space enter the unsorted elements : 8 7 6 1 0 9 2
+Sorted elements are : 0, 1, 2, 6, 7, 8, 9
+*/
 ```
-OutPut<br />
-Enter the size of elements : 7<br />
-By using space enter the unsorted elements : 8 7 6 1 0 9 2<br />
-Sorted elements are : 0, 1, 2, 6, 7, 8, 9<br />
-
 
