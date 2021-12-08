@@ -178,3 +178,4 @@ It happens when none of the preceding conditions are met.
 
 Quicksort has a space complexity of O. (log n).
  
+:two_men_holding_hands: Group Members
