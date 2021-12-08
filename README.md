@@ -56,7 +56,7 @@ Again, pivot components are picked individually for the left and right
 Using recursion, choose the pivot element in each half and set it in the proper location.<br />
 
 <img width="450" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145273820-b82caa55-a16a-4345-afc8-c22034cba548.png"><img width="450" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145243171-71043ea1-5c47-4ed9-aafa-0e02d82d6745.png">
-<div style="text-align: left"> Sorting the elements on the left of pivot using recursion. </div><div style="text-align: right"> Sorting the elements on the right of pivot using recursion. </div>
+<p align="left"> Sorting the elements on the left of pivot using recursion.</p><p align="Right"> Sorting the elements on the right of pivot using recursion. </p?
 
 <p align="center">
 <img width="530" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145286706-b66d3ee4-0bd4-410f-8c6d-f12ca0622828.png">
