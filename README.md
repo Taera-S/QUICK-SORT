@@ -176,7 +176,7 @@ It happens when none of the preceding conditions are met.
 
 ### **2. Space Complexity**
 
-Quicksort has a space complexity of O. (log n).<br /> **:two_men_holding_hands: Group Members :two_men_holding_hands:**
+Quicksort has a space complexity of O. (log n).<br /><p align="center"> **:two_men_holding_hands: Group Members :two_men_holding_hands:**</p>
     
 <p align="center">:one: TAERA SISAY :arrow_right: CNCS/UR15476/12
 <p align="center">:two: SURAFEL ASFAW :arrow_right: CNCS/UR15472/12
