@@ -178,4 +178,7 @@ It happens when none of the preceding conditions are met.
 
 Quicksort has a space complexity of O. (log n).
  
-<p align="center"> ## :two_men_holding_hands: Group Members :two_men_holding_hands:</p>
+<p align="center">:two_men_holding_hands: Group Members :two_men_holding_hands:</p>
+<p align="center">:one: TAERA SISAY :arrow_right: CNCS/UR15476/12
+<p align="center">:two: SURAFEL ASFAW :arrow_right: CNCS/UR15476/12
+<p align="center">:three: NEGUSU SOLOMON :arrow_right: CNCS/UR15375/12
