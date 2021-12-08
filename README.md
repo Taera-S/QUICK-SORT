@@ -48,7 +48,6 @@ The operation is repeated to make the next larger element as the second pointer
 <br />
 The procedure is repeated until the second-to-last element is reached.<br />
 <img width="510" alt="Picture7" src="https://user-images.githubusercontent.com/95191692/145233078-fe1236b0-bb6b-454a-83cc-f1bf941d7d0b.png">
-<br />
 Then, the pivot element is switched with the second pointer.<br />
 <br />
 <br />
